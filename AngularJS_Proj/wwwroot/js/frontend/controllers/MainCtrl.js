@@ -39,7 +39,6 @@ angular.module('AngularJS_Proj')
             .catch(function (fallback) {
                     console.log(fallback);
                alert('warning', 'Opps!', 'Something went wrong');
-               //alert('success', 'Thank you', 'The message has been successfully sent!');
             });
         };
     });
